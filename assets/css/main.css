@@ -906,6 +906,14 @@ section,
   color: color-mix(in srgb, var(--heading-color), transparent 30%);
 }
 
+.hero h2 {
+  margin: 0 0 20px 0;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 56px;
+  color: color-mix(in srgb, var(--heading-color), transparent 30%);
+}
+
 .hero h1 span {
   color: var(--heading-color);
   border-bottom: 4px solid var(--accent-color);
@@ -969,6 +977,11 @@ section,
 @media (max-width: 640px) {
   .hero h1 {
     font-size: 28px;
+    line-height: 36px;
+  }
+
+  .hero h2 {
+    font-size: 20px;
     line-height: 36px;
   }
 
